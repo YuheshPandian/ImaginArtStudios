@@ -1,0 +1,42 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/footer.css' %}" />
+
+<footer class="footer">
+    <section class="footer-section">
+        <h3>Imaginart Studios</h3>
+        <p class="footer-text">
+            Where imagination meets creativity. Your ideas, our innovation.
+        </p>
+    </section>
+    <section class="footer-section">
+        <h4>Quick Links</h4>
+        <nav class="footer-links-wrapper">
+            <ul class="footer-links">
+                <li><a href="{% url 'home'%}">Home</a></li>
+                <li><a href="{% url 'about'%}">About</a></li>
+                <li><a href="{% url 'services'%}">Our Services</a></li>
+                <li><a href="{% url 'testimonials'%}">Testimonials</a></li>
+                <li><a href="{% url 'contact'%}">Contact Us</a></li>
+            </ul>
+            <ul class="footer-links">
+                <li>
+                    <a href="https://github.com/YuheshPandian/ImaginArtStudios"
+                        >Github</a
+                    >
+                </li>
+                <li>
+                    <a href="https://github.com/YuheshPandian/">Developer</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="footer-section">
+        <h4>Contact</h4>
+        <p class="footer-text">Email: hello@imaginart.studios</p>
+        <p class="footer-text">Location: Tamil Nadu, India</p>
+    </section>
+    <hr />
+    <p class="footer-text copyright">
+        &copy; 2025 Imaginart Studios. All rights reserved.
+    </p>
+</footer>
