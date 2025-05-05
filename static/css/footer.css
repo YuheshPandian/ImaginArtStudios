@@ -37,7 +37,6 @@
 .footer-links li a {
     color: var(--accent-color);
     text-decoration: none;
-    opacity: 95%;
     font-family: Poppins, sans-serif;
 }
 

@@ -11,10 +11,14 @@
     color: var(--text-color);
 }
 
+body {
+    background-color: var(--bg-color);
+}
+
 :root {
     --bg-color: #f5f5f5;
-    --accent-color: #f7e987;
-    --secondary-color: #445069;
-    --primary-color: #252b48;
+    --accent-color: #fff5aa;
+    --secondary-color: #535f79;
+    --primary-color: #1f2541;
     --text-color: #333333;
 }
