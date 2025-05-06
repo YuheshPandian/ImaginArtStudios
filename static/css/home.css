@@ -1,0 +1,77 @@
+.hero-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 80px 20px;
+}
+
+.hero-section .text h1 {
+    font-size: 6rem;
+    color: var(--primary-color);
+    font-family: Roboto, sans-serif;
+    line-height: 0.9;
+    margin-block: 40px;
+}
+
+.hero-section .text h1 strong {
+    font-weight: 300;
+    color: var(--secondary-color);
+    line-height: 0.8;
+}
+
+.hero-section .text p {
+    font-size: 2.2rem;
+    font-family: Inter, monospace;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-block: 20px;
+}
+
+.hero-section .text .call-to-action {
+    text-decoration: none;
+    font-family: Poppins, monospace;
+    font-size: 1.45rem;
+    padding: 16px;
+    margin-block: 20px;
+    color: var(--primary-color);
+    border-radius: 12px;
+    background-color: var(--accent-color);
+    border: 0;
+    outline: none;
+    box-shadow: 0px 0px 4px #53535381;
+    transition: 100ms ease-in-out;
+}
+
+.hero-section .text .call-to-action:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 2px #53535381;
+}
+
+.hero-section .visuals {
+    position: relative;
+}
+
+.hero-section .visuals .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+}
+
+.hero-section .visuals .triangle {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid var(--secondary-color);
+    position: absolute;
+    top: 150px;
+    left: 125px;
+}
+
+.hero-section .visuals .square {
+    position: absolute;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+}
