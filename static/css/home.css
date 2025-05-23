@@ -1,7 +1,7 @@
 .hero-section {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 
 .hero-section .text h1 {
@@ -48,6 +48,14 @@
 
 .hero-section .visuals {
     position: relative;
+}
+
+.hero-section .visuals * {
+    transition: 200ms ease-in-out;
+}
+
+.hero-section .visuals *:hover {
+    transform: scale(1.05);
 }
 
 .hero-section .visuals .circle {
